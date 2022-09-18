@@ -23,7 +23,7 @@ public class LoginServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String emailID = request.getParameter("emailID");
 		String pass= request.getParameter("pass");
-		User u1= new User(emailID,pass);
+		User u1= new User(emailID,pass); 
 		UserDBService userDBService=new UserDBService();
 		//boolean flag = false;
 		//flag=userDBService.verifyUser(u1); 

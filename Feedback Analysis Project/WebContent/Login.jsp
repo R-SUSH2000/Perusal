@@ -10,7 +10,7 @@
 <div align="centre">
 <h1>Login</h1>
 <form action="LoginServlet" method="get" >
-<table>
+<table> 
 	<tr> <td>Enter the Email ID : <input type="text" name ="emailID"></td></tr>
 	<tr> <td>Enter the password : <input type="password" name="pass"></td> </tr>
 	<tr> <td> <input type="submit" value = "Login"></td></tr>

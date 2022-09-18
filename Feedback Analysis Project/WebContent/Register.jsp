@@ -10,7 +10,7 @@
 <div align="centre">
 <h1>Register</h1>
 <form action= "NewUserServlet" method="get">
-<table>
+<table> 
 	<tr><td>Enter the Name : <input type="text" name ="uname"></td></tr>
 	<tr><td>Enter the Password : <input type="password" name ="pass"></td></tr>	
 	<tr><td>Enter the Email ID : <input type="text" name ="emailID"></td></tr>

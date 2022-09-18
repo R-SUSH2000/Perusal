@@ -7,7 +7,7 @@ public class User implements Serializable{
 	private String loginId;
 	private String name;
 	private String password;
-    private String role;
+    private String role; 
     private String emailID;
     
     

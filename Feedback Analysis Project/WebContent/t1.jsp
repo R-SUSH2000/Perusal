@@ -12,7 +12,7 @@
             <TABLE style="background-color: #ECE5B6;" WIDTH="50%">
                 <tr width="100%">
                     <td >Student Name</td>
-                    <td ><input type="text" name="name"></td>
+                     <td ><input type="text" name="name"></td>
                 </tr>
                 <tr>
                     <td width="20%">Stream</td>

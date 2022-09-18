@@ -17,7 +17,7 @@ public class UserFeedbackServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		HttpSession session = request.getSession();
-		User u1=(User)session.getAttribute("u1");
+		User u1=(User)session.getAttribute("u1"); 
 		System.out.println(u1.getEmailID()); 
 		String gender = request.getParameter("gender");
 		String amount = request.getParameter("amount");

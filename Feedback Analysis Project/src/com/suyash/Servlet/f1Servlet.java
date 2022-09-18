@@ -11,7 +11,7 @@ public class f1Servlet extends HttpServlet{
 	 {
 		 int a=Integer.parseInt(rs.getParameter("num1"));
 		 int b=Integer.parseInt(rs.getParameter("num2"));
-		 
+		  
 	 }
 	 
 	

@@ -17,7 +17,7 @@ public class UserDBService {
 	public UserDBService() {
 		con=DBConnection.getConnection();
 	}
-
+ 
 	public boolean verifyUser(User user)
 	{
        boolean found=false;

@@ -6,7 +6,7 @@ public class Userfeedback {
 	String amount;
 	String userInterface;
 	String issuesolution;
-	String suggestion;
+	String suggestion; 
 	String emailID;
 	
 	public void displayAll()

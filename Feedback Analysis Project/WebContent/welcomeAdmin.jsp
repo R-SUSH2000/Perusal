@@ -11,7 +11,7 @@
 </head>
 <body>
 <form action="AdminHomeServlet">
-
+ 
 <h1>Welcome <%=request.getParameter("emailID")%> <br></h1>>
 Current Time: <%=java.util.Calendar.getInstance().getTime()%> 
 

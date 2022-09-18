@@ -11,7 +11,7 @@
 	<form action="UserFeedbackServlet" method="get">
 	<input type="hidden" name= "emailID" value = "<%=request.getParameter("emailID") %>">
 	<br>Gender <br>
-	
+	 
 	Male <input type="radio" value="Male" name ="gender">
 	Female <input type="radio" value="Female" name="gender"> <br> <br>
 	
